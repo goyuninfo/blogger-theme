@@ -16,35 +16,35 @@ URL:      jasonmorrow.etsy.com
 
 /* Variable definitions
    ====================
-   <Variable name="keycolor" description="Main Color" type="color" default="#000000" value="#000002"/>
+   <Variable name="keycolor" description="Main Color" type="color" default="#000000" value="#e9edec"/>
 
    <Group description="Body Text" selector="body">
      <Variable name="body.font" description="Font" type="font"
          default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-     <Variable name="body.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#666666" value="#909090"/>
    </Group>
 
    <Group description="Background" selector=".body-fauxcolumns-outer">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#fb5e53" value="#5e53fb"/>
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#fb5e53" value="#7bfbe4"/>
      <Variable name="content.background.color" description="Main Background" type="color" default="#ffffff" value="#ffffff"/>
-     <Variable name="body.border.color" description="Border Color" type="color" default="#fb5e53" value="#5e53fb"/>
+     <Variable name="body.border.color" description="Border Color" type="color" default="#fb5e53" value="#7bfbe4"/>
    </Group>
 
    <Group description="Links" selector=".main-inner">
-     <Variable name="link.color" description="Link Color" type="color" default="#2198a6" value="#98a621"/>
-     <Variable name="link.visited.color" description="Visited Color" type="color" default="#4d469c" value="#469c4d"/>
+     <Variable name="link.color" description="Link Color" type="color" default="#2198a6" value="#d94359"/>
+     <Variable name="link.visited.color" description="Visited Color" type="color" default="#4d469c" value="#bdb06e"/>
      <Variable name="link.hover.color" description="Hover Color" type="color" default="$(link.color)" value="#d94359"/>
    </Group>
 
    <Group description="Blog Title" selector=".header h1">
      <Variable name="header.font" description="Font" type="font"
          default="normal normal 60px Times, 'Times New Roman', FreeSerif, serif" value="normal normal 60px Times, &#39;Times New Roman&#39;, FreeSerif, serif"/>
-     <Variable name="header.text.color" description="Text Color" type="color" default="#ff8b8b" value="#8b8bff"/>
+     <Variable name="header.text.color" description="Text Color" type="color" default="#ff8b8b" value="#a9ffe9"/>
    </Group>
 
    <Group description="Blog Description" selector=".header .description">
      <Variable name="description.text.color" description="Description Color" type="color"
-         default="#666666" value="#666666"/>
+         default="#666666" value="#909090"/>
    </Group>
 
    <Group description="Tabs Text" selector=".tabs-inner .widget li a">
@@ -55,31 +55,31 @@ URL:      jasonmorrow.etsy.com
    </Group>
 
    <Group description="Tabs Background" selector=".tabs-outer .PageList">
-     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#ffa183" value="#a183ff"/>
-     <Variable name="tabs.background.color" description="Background Color" type="color" default="#ffdfc7" value="#dfc7ff"/>
-     <Variable name="tabs.border.bevel.color" description="Bevel Color" type="color" default="#fb5e53" value="#5e53fb"/>
+     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#ffa183" value="#a2fffe"/>
+     <Variable name="tabs.background.color" description="Background Color" type="color" default="#ffdfc7" value="#def9ff"/>
+     <Variable name="tabs.border.bevel.color" description="Bevel Color" type="color" default="#fb5e53" value="#7bfbe4"/>
    </Group>
 
    <Group description="Post Title" selector="h3.post-title, h4, h3.post-title a">
      <Variable name="post.title.font" description="Font" type="font"
          default="normal normal 24px Times, Times New Roman, serif" value="normal normal 24px Times, Times New Roman, serif"/>
-     <Variable name="post.title.text.color" description="Text Color" type="color" default="#2198a6" value="#98a621"/>
+     <Variable name="post.title.text.color" description="Text Color" type="color" default="#2198a6" value="#d94359"/>
    </Group>
 
    <Group description="Gadget Title" selector="h2">
      <Variable name="widget.title.font" description="Title Font" type="font"
         default="normal bold 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal bold 12px Verdana, Geneva, sans-serif"/>
      <Variable name="widget.title.text.color" description="Text Color" type="color" default="$(body.text.color)" value="#909090"/>
-     <Variable name="widget.title.border.bevel.color" description="Bevel Color" type="color" default="#dbdbdb" value="#dbdbdb"/>
+     <Variable name="widget.title.border.bevel.color" description="Bevel Color" type="color" default="#dbdbdb" value="#e7e7e7"/>
    </Group>
 
    <Group description="Accents" selector=".main-inner .widget">
-     <Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#cccccc" value="#cccccc"/>
-     <Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="#dbdbdb" value="#dbdbdb"/>
+     <Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#cccccc" value="#dadada"/>
+     <Variable name="widget.border.bevel.color" description="Bevel Color" type="color" default="#dbdbdb" value="#e7e7e7"/>
    </Group>
 
    <Variable name="body.background" description="Body Background" type="background"
-       color="$(body.background.color)" default="$(color) none repeat-x scroll top left" value="#000002 url(//themes.googleusercontent.com/image?id=1nCEFJnjbEM1e6XClO-Dh7L-U6FJQuxivkV20FpXYmkNyRA0vQIZPfjuIp6hcROwwArvQ) no-repeat fixed top center /* Credit: sololos (http://www.istockphoto.com/file_closeup.php?id=5613056&amp;platform=blogger) */"/>
+       color="$(body.background.color)" default="$(color) none repeat-x scroll top left" value="#e9edec url(//themes.googleusercontent.com/image?id=1SBilrALlXIPLRAelrnhYjgFyYa09ZeL8cdktIYuaRwQ3kEvcEX-Xz1NjKkrLjtsPxmc7) repeat fixed top center /* Credit: merrymoonmary (http://www.istockphoto.com/file_closeup.php?id=10871280&amp;platform=blogger) */"/>
    <Variable name="body.background.gradient" description="Body Gradient Cap" type="url"
        default="none" value="none"/>
    <Variable name="body.background.imageBorder" description="Body Image Border" type="url"
@@ -679,7 +679,7 @@ display: none !important;
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8050191038367965214\x26blogName\x3dPro+Technology\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://it.i88.ca/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://it.i88.ca/\x26vt\x3d223374410315697094&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8050191038367965214\x26blogName\x3dPro+Technology\x26publishMode\x3dPUBLISH_MODE_HOSTED\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://it.i88.ca/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://it.i88.ca/\x26vt\x3d223374410315697094&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -858,15 +858,49 @@ head.appendChild(script);
     <div class='fauxborder-left tabs-fauxborder-left'>
     <div class='fauxborder-right tabs-fauxborder-right'/>
     <div class='region-inner tabs-inner'>
-      <b:section class='tabs' id='crosscol' maxwidgets='1' name='Cross-Column' showaddelement='yes'>
+      <b:section class='tabs' id='crosscol' maxwidgets='2' name='Cross-Column' showaddelement='yes'>
+        <b:widget id='PageList1' locked='false' title='' type='PageList'>
+          <b:widget-settings>
+            <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://it.i88.ca/', 'title': 'Home', 'position': 0}, '8618097367012699879': {'href': 'https://it.i88.ca/p/more-news.html', 'title': 'More News', 'position': 1}, '3673025271536830908': {'href': 'https://it.i88.ca/p/blog-page.html', 'title': 'Twitter', 'position': 2}, '9100719255326239514': {'href': 'https://it.i88.ca/p/disclaimers.html', 'title': 'Disclaimers', 'position': 3}, '2356179962801601958': {'href': 'https://it.i88.ca/p/dear-valued-customer-friendly-reminder.html', 'title': 'Security Alert Reminder', 'position': 4}, '7236903835224964427': {'href': 'https://it.i88.ca/p/blog-page_28.html', 'title': 'Search', 'position': 5}}]]></b:widget-setting>
+            <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+        </b:widget>
+      </b:section>
+      <b:section class='tabs' id='crosscol-overflow' name='Cross-Column 2' showaddelement='yes'>
         <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
           <b:widget-settings>
-            <b:widget-setting name='style.bgcolor'>#d4e1ff</b:widget-setting>
-            <b:widget-setting name='style.textcolor'>#666666</b:widget-setting>
+            <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.textcolor'>#909090</b:widget-setting>
             <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-            <b:widget-setting name='style.bordercolor'>#d4e1ff</b:widget-setting>
-            <b:widget-setting name='style.urlcolor'>#4d469c</b:widget-setting>
-            <b:widget-setting name='style.linkcolor'>#3d85c6</b:widget-setting>
+            <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+            <b:widget-setting name='style.urlcolor'>#bdb06e</b:widget-setting>
+            <b:widget-setting name='style.linkcolor'>#d94359</b:widget-setting>
             <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
@@ -877,7 +911,6 @@ head.appendChild(script);
 </b:includable>
         </b:widget>
       </b:section>
-      <b:section class='tabs' id='crosscol-overflow' name='Cross-Column 2' showaddelement='no'/>
     </div>
     </div>
     <div class='tabs-cap-bottom cap-bottom'>
@@ -1868,44 +1901,6 @@ head.appendChild(script);
   </div>
 </b:includable>
             </b:widget>
-            <b:widget id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
-              <b:widget-settings>
-                <b:widget-setting name='showSnippet'>true</b:widget-setting>
-                <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-                <b:widget-setting name='showFirstImage'>true</b:widget-setting>
-                <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
-              </b:widget-settings>
-              <b:includable id='main'>
-  <!-- Only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <b:include name='content'/>
-
-  <b:include name='quickedit'/>
-</b:includable>
-              <b:includable id='content'>
-  <div class='post-summary'>
-    <b:if cond='data:showPostTitle and data:postTitle != &quot;&quot;'>
-      <h3><a expr:href='data:postUrl'><data:postTitle/></a></h3>
-    </b:if>
-    <b:if cond='data:showSnippet and data:postSummary != &quot;&quot;'>
-      <p>
-        <data:postSummary/>
-      </p>
-    </b:if>
-    <b:if cond='data:showFirstImage and data:postFirstImage != &quot;&quot;'>
-      <img class='image' expr:src='data:postFirstImage'/>
-    </b:if>
-  </div>
-
-  <style type='text/css'>
-    .image {
-      width: 100%;
-    }
-  </style>
-</b:includable>
-            </b:widget>
             <b:widget id='PopularPosts1' locked='false' title='' type='PopularPosts'>
               <b:widget-settings>
                 <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
@@ -2015,8 +2010,8 @@ head.appendChild(script);
         <macro:param default='false' name='includeBottom'/>
       </macro:include>
       <!-- outside of the include in order to lock Attribution widget -->
-      <b:section class='foot' id='footer-3' name='Footer' showaddelement='no'>
-        <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
+      <b:section class='foot' id='footer-3' mobile='no' name='Footer' showaddelement='no'>
+        <b:widget id='Attribution1' locked='true' title='' type='Attribution' version='1'>
           <b:widget-settings>
             <b:widget-setting name='copyright'/>
           </b:widget-settings>
@@ -2097,7 +2092,7 @@ head.appendChild(script);
 </macro:includable>
 
 <b:section-contents id='footer-1'>
-  <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
+  <b:widget id='AdSense3' locked='false' title='' type='AdSense'>
     <b:includable id='main'>
   <div class='widget-content'>
     <data:adCode/>
@@ -2261,62 +2256,12 @@ head.appendChild(script);
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='PageList1' locked='false' title='' type='PageList'>
-    <b:widget-settings>
-      <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'http://it.i88.ca/', 'title': 'Home', 'position': 0}}]]></b:widget-setting>
-      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
-    </b:widget-settings>
+  <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
     <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
   <div class='widget-content'>
-    <b:if cond='data:mobile'>
-      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
-        <b:loop values='data:links' var='link'>
-          <option expr:value='data:link.href'>
-            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
-            <data:link.title/>
-          </option>
-        </b:loop>
-      </select>
-      <span class='pagelist-arrow'>&amp;#9660;</span>
-    <b:else/>
-      <ul>
-        <b:loop values='data:links' var='link'>
-          <li>
-            <b:class cond='data:link.isCurrentPage' name='selected'/>
-            <a expr:href='data:link.href'><data:link.title/></a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:if>
+    <data:adCode/>
     <b:include name='quickedit'/>
   </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail'>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
-  <div class='widget-content'>
-    <div class='follow-by-email-inner'>
-      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
-        <table width='100%'>
-          <tr>
-            <td>
-              <input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
-            </td>
-            <td width='64px'>
-              <input class='follow-by-email-submit' type='submit' value='Submit'/>
-            </td>
-          </tr>
-        </table>
-        <input expr:value='data:feedPath' name='uri' type='hidden'/>
-        <input name='loc' type='hidden' value='en_US'/>
-      </form>
-    </div>
-  </div>
-  <span class='item-control blog-admin'>
-    <b:include name='quickedit'/>
-  </span>
 </b:includable>
   </b:widget>
 </b:section-contents></html>
